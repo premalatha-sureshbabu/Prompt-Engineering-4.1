@@ -47,12 +47,14 @@ Expected Output:
 
 “You can contact customer support anytime by visiting our ‘Contact Us’ page. You can reach us via email, phone, or live chat. If your inquiry is order-related, make sure to have your order number ready for quicker assistance. We’re here to help 24/7!”
 
-# Report:
-| **Prompt Technique**             | **Purpose**                                                | **Use Cases**                                   | **Benefits**                                                  |
-|----------------------------------|------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------|
-| **Experiential Perspective Prompt** | Provides a more subjective or empathetic response based on experience | Troubleshooting, personalized support           | Builds empathy, helps create a more conversational tone, adds personalization to responses. |
-| **Comparative Analysis Prompt**   | Encourages a comparison between two or more entities to highlight differences | Order status, product feature comparisons, issue resolution | Provides a deeper understanding of options, contrasts and informs decisions effectively. |
-| **Prompt Size Limitations**       | Generates concise responses while respecting character/word limits | Short inquiries, quick answers, FAQs           | Ensures clarity and brevity, ideal for time-sensitive or constrained environments. |
+# Conclusion:
+The experiment successfully demonstrated the effectiveness of diverse prompting techniques in enhancing the performance and responsiveness of the AI-powered Smart Health Assistant, MediGuide, within a simulated customer service environment. By employing various prompt types—including experiential perspective, comparative analysis, and prompt size limitation—we observed how the nature and structure of prompts significantly influenced the clarity, empathy, and relevance of the chatbot's responses.
+
+->Experiential prompts enabled responses that mimicked human-like technical support behavior, improving user satisfaction.
+
+->Comparative analysis prompts highlighted the advantages of machine learning models in generating context-aware, empathetic replies over rigid rule-based systems.
+
+->Prompt size limitation enforced brevity and focus, ensuring concise and accessible communication.
 
 # Result:
 Thus the Prompts were exected succcessfully.
