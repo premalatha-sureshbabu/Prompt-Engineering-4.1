@@ -9,17 +9,17 @@ You are part of a development team working on an AI-based Smart Health Assistant
 Develop a scenario-based report that demonstrates how diverse prompting techniques (zero-shot, few-shot, chain-of-thought, role-based, and multi-modal prompts) can be used to optimize MediGuide’s responses in different use cases.
 
 ## Algorithm:
-Collect user preferences: destination, duration, interests, and budget.
+1.Collect user preferences: destination, duration, interests, and budget.
 
-Apply different prompt techniques: zero-shot, role-based, few-shot, chain-of-thought.
+2.Apply different prompt techniques: zero-shot, role-based, few-shot, chain-of-thought.
 
-Generate AI outputs for personalized travel plans.
+3.Generate AI outputs for personalized travel plans.
 
-Compare responses from ChatGPT and Gemini.
+4.Compare responses from ChatGPT and Gemini.
 
-Analyze creativity, contextual relevance, and user experience.
+5.Analyze creativity, contextual relevance, and user experience.
 
-Summarize findings.
+6.Summarize findings.
 
 ### Use Case
 Travel Planner Use Case: AI-driven Travel Recommendations and Itinerary Generation
@@ -32,9 +32,9 @@ To compare the effectiveness of three distinct prompt types—
 —across two different AI platforms (e.g., ChatGPT and Claude) for generating travel recommendations, personalized itineraries, and activity suggestions.
 
 AI Tools Used:
-ChatGPT (GPT-4)
+->ChatGPT (GPT-4)
 
-Claude (Anthropic AI)
+->Claude (Anthropic AI)
 
 Prompts Used:
 ### 1. Straightforward Prompts:
@@ -43,7 +43,7 @@ Objective: Directly ask the AI to provide a travel itinerary based on provided p
 Prompt Example:
 "I am planning a trip to Paris for 5 days and I enjoy historical sites, museums, and local cuisine. Can you recommend a travel itinerary for me?"
 
-ChatGPT Output:
+### ChatGPT Output:
 "Here’s a suggested 5-day itinerary for Paris:
 
 Day 1: Explore the Eiffel Tower and Champ de Mars park. Visit the Louvre Museum in the afternoon.
@@ -56,7 +56,7 @@ Day 4: Explore Montmartre, visit Sacré-Cœur Basilica and Moulin Rouge.
 
 Day 5: Visit the Musée d'Orsay and enjoy dinner at a local French bistro."
 
-Claude Output:
+### Claude Output:
 "Here’s a recommended 5-day itinerary for Paris:
 
 Day 1: Visit Eiffel Tower and Louvre Museum. Have dinner at Le Jules Verne on the Eiffel Tower.
@@ -79,9 +79,9 @@ Day 5: Spend the day exploring Le Marais district, shop at local boutiques, and 
 
 
 ### Final Summary:
-ChatGPT provided a clear, simple, and user-friendly itinerary suitable for general travelers.
+->ChatGPT provided a clear, simple, and user-friendly itinerary suitable for general travelers.
 
-Claude provided a more detailed itinerary, with suggestions for dining and local experiences, making it more suited for travelers looking for an in-depth experience.
+->Claude provided a more detailed itinerary, with suggestions for dining and local experiences, making it more suited for travelers looking for an in-depth experience.
 
 ### 2. Tabular Format Prompting:
 Objective: Present information in a tabular format for clarity, then ask the AI to analyze and generate a travel itinerary.
@@ -98,7 +98,7 @@ Prompt Example:
 | Travel Constraints | No walking tours longer than 2 hours daily |
 
 
-ChatGPT Output:
+### ChatGPT Output:
 "Here’s a 5-day itinerary for Rome:
 
 Day 1: Visit Colosseum and Roman Forum (2 hours). Lunch at a traditional trattoria. Evening visit to Pantheon.
@@ -111,7 +111,7 @@ Day 4: Explore Piazza del Popolo, Spanish Steps, and Trevi Fountain. Have dinner
 
 Day 5: Day trip to Tivoli Gardens with lunch at a local vineyard."
 
-Claude Output:
+### Claude Output:
 "Here’s a suggested 5-day itinerary for Rome:
 
 Day 1: Visit the Colosseum, Roman Forum, and Palatine Hill (break after each location). Lunch at Piazza della Rotonda. Evening stroll near the Trevi Fountain.
@@ -134,9 +134,9 @@ Day 5: Visit Castel Sant'Angelo and take a day trip to Ostia Antica for ancient 
 
 
 ### Final Summary:
-ChatGPT provided a concise and easy-to-follow itinerary, ideal for travelers who prefer simplicity.
+->ChatGPT provided a concise and easy-to-follow itinerary, ideal for travelers who prefer simplicity.
 
-Claude offered a more detailed, varied itinerary with a mix of well-known and less-visited locations, which could appeal to more seasoned travelers.
+->Claude offered a more detailed, varied itinerary with a mix of well-known and less-visited locations, which could appeal to more seasoned travelers.
 
 ### 3. Missing Word Prompting:
 Objective: Provide a partially completed sentence or data and ask the AI to fill in the missing words or information.
@@ -144,7 +144,7 @@ Objective: Provide a partially completed sentence or data and ask the AI to fill
 Prompt Example:
 "The traveler is interested in historical landmarks, museums, and good food in Rome. Based on these preferences, the ideal destination for a 5-day itinerary is _____. Fill in the missing destination and suggest an itinerary."
 
-ChatGPT Output:
+### ChatGPT Output:
 "The ideal destination is Rome. Here’s a suggested itinerary:
 
 Day 1: Visit Colosseum, Roman Forum, and Pantheon.
@@ -157,7 +157,7 @@ Day 4: Explore Trevi Fountain, Spanish Steps, and Piazza del Popolo.
 
 Day 5: Day trip to Tivoli Gardens."
 
-Claude Output:
+### Claude Output:
 "The ideal destination is Rome. Here’s a suggested itinerary:
 
 Day 1: Visit Colosseum, Roman Forum, and Palatine Hill.
@@ -180,9 +180,9 @@ Day 5: Take a trip to Ostia Antica and enjoy the archaeological sites."
 
 
 ### Conclusion:
-ChatGPT delivered a simple and straightforward itinerary, ideal for general audiences.
+->ChatGPT delivered a simple and straightforward itinerary, ideal for general audiences.
 
-Claude provided a more diverse and varied itinerary, with additional options for a richer experience.
+->Claude provided a more diverse and varied itinerary, with additional options for a richer experience.
 
 ### Final Comparative Evaluation:
 | **Prompt Type**              | **Best Performing Platform** | **Strengths**                                     | **Weaknesses**                                      |
@@ -193,9 +193,9 @@ Claude provided a more diverse and varied itinerary, with additional options for
 
 
 ### Final Conclusion:
-ChatGPT performed well in terms of clarity and simplicity, making it ideal for general travelers who prefer a concise and easy-to-follow plan.
+->ChatGPT performed well in terms of clarity and simplicity, making it ideal for general travelers who prefer a concise and easy-to-follow plan.
 
-Claude provided more detailed, varied suggestions, which would benefit travelers looking for a richer experience or seeking specific, off-the-beaten-path locations.
+->Claude provided more detailed, varied suggestions, which would benefit travelers looking for a richer experience or seeking specific, off-the-beaten-path locations.
 # Result:
 Thus the Prompts were exected succcessfully.
 
